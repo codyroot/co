@@ -1,0 +1,16 @@
+{
+  "name": "Throttle",
+  "version": "0.0.0",
+  "description": "asdasd",
+  "main": "throttle.ts",
+  "scripts": {
+    "prepublish": "node compile.js",
+    "compile": "node compile.js"
+  },
+"repository": {
+  "type": "git",
+  "url": "https://bitbucket.org/a2y/co"
+},
+  "author": "asd",
+  "license": "ISC"
+}

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head lang="de">
+	<meta charset="UTF-8">
+	<title>Throttling</title>
+</head>
+<body>
+<script type="text/javascript" src="throttle.js"></script>
+<script type="text/javascript">
+	// Usage
+	var eventCallback = throttle(function() {
+		console.log("blubb");
+	}, 300, true);
+	window.addEventListener("click", eventCallback);
+</script>
+</body>
+</html>
